@@ -2,7 +2,7 @@
 layout: page
 title: "About"
 description: "Hey, this is BerBai."
-header-img: "img/post-bg-rwd.jpg"
+header-img: "img/about-bg.jpg"
 ---
 
 <!-- Language Selector -->
@@ -13,47 +13,14 @@ header-img: "img/post-bg-rwd.jpg"
 
 <!-- Chinese Version -->
 <div class="zh post-container">
-
-    <!--copied from markdown -->
-    <blockquote><p>纵力量绵薄，也要筑起通往梦想的桥梁。</p></blockquote>
-
-    <p>Hey，我网名是<strong>柏梓涵(BerBai)</strong>，CS专业，目前大三。</p>
-
-    <p>一个健身爱好者，看的最多的书《孙子兵法》。</p>
-
-    <p>这是我在业余时间做的搭建的 <a href="https://smartbber.github.io">柏梓涵的官方网站</a>，我的GitHub主页<a href="https://github.com/smartBBer">👉smartBBer</a> 与 简书主页<a href="https://www.jianshu.com/u/a20ad796d7a3">👉柏梓涵isAboy</a>。如果有什么问题，欢迎提出探讨~</p>
-
-    <p></p>
-    
-    <h5>Talks</h5>
-
-    <ul>
-        <li><a href="https://github.com">GitHub</a></li>
-        <li><a href="http://jekyll.com.cn/">jekyll</a></li>
-        <li><a href="http://huangxuan.me/">Hux</a></li> 
-        <li><a href="https://analytics.google.com/analytics">Google Analytics</a></li>
-    </ul>
+	{% capture about_zh %}{% include about/zh.md %}{% endcapture %}
+    {{ about_zh | markdownify }}
 </div>
 
 <!-- English Version -->
  <div class="en post-container">
-    <blockquote><p>Yet another new soul. <br>
-    Yet another Life-long Student.</p></blockquote>
-
-    <p>Hi, I am <strong>BerBai</strong>. I am a college student majoring in computer science and technology.</p>
-
-    <p>This is my personal blog. My GitHub  👉 <a href="https://github.com/smartBBer">smartBBer</a> and my facebook 👉 <a href="https://facebook.com/bai5775">柏梓涵</a>.</p>
-    
-    <p>I recommend a book The Art of War (《孙子兵法》).</p>
-
-    <h5>Talks</h5>
-
-    <ul>
-        <li><a href="https://github.com">GitHub</a></li>
-        <li><a href="http://jekyll.com.cn/">jekyll</a></li>
-        <li><a href="http://huangxuan.me/">Hux</a></li> 
-        <li><a href="https://analytics.google.com/analytics">Google Analytics</a></li>
-    </ul>
+    {% capture about_en %}{% include about/en.md %}{% endcapture %}
+    {{ about_en | markdownify }}
 </div> 
 
 <!-- Handle Language Change -->
