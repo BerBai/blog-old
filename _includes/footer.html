@@ -93,7 +93,7 @@
                 <p class="copyright text-muted">
                     Copyright &copy; {{ site.title }} {{ site.time | date: '%Y' }}
                     <br>
-                    Theme on <a href="{{ site.github_repo }}">GitHub</a> |
+                    Theme by <a href="{{ site.github_repo }}">Jekyll</a> |
                     <iframe
                         style="margin-left: 2px; margin-bottom:-5px;"
                         frameborder="0" scrolling="0" width="100px" height="20px"
@@ -116,7 +116,9 @@
 
 <!-- Service Worker -->
 {% if site.service-worker %}
-<script type="text/javascript">
+<script src="{{ "/js/snackbar.js " | prepend: site.baseurl }}"></script>
+<script src="{{ "/js/sw-registration.js " | prepend: site.baseurl }}"></script>
+<!--<script type="text/javascript">
     if(navigator.serviceWorker){
         // For security reasons, a service worker can only control the pages that are in the same directory level or below it. That's why we put sw.js at ROOT level.
         navigator.serviceWorker
@@ -125,6 +127,7 @@
             .catch((error) => {console.log('ServiceWorker registration failed: ', error)})
     }
 </script>
+-->
 {% endif %}
 
 
