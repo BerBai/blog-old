@@ -3,10 +3,10 @@ title: 柏梓涵的官方网站
 SEOTitle: 柏梓涵的官方网站
 header-img: img/home-bg-new.jpg
 email: bai5775@outlook.com
-description: "关于我与世界 | 柏梓涵，Software Engineer，UX Designer | 这里是 @柏梓涵 的个人网站，与你一起发现更大的世界。"
+description: "关于我与世界 | 柏梓涵，Software Engineer | 这里是 @柏梓涵 的个人网站，与你一起发现更大的世界。"
 keyword: "柏梓涵, BerBai, 柏战不殆, 博客, 个人网站, 互联网, 深度学习, 全栈, 设计"
-url: "https://smartBBer.github.io"          # your host, for absolute URL
-baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
+url: "https://baizihan.top"             # your host, for absolute URL
+baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/smartBBer/smartbber.github.io.git" # you code repository
 
 # Sidebar settings
@@ -21,7 +21,7 @@ RSS: false
 weibo_username:     smartBBer
 zhihu_username:     da-lang-bei
 github_username:    smartBBer
-facebook_username:  bai5775
+#facebook_username:  bai5775
 jianshu_username:   a20ad796d7a3
 #twitter_username:   username
 
@@ -61,13 +61,13 @@ kramdown:
 
 # Gitalk
 gitalk:
-  enable: true    #是否开启Gitalk评论
+  enable: true                                              #是否开启Gitalk评论
   clientID: 1ba8f62d66228ee3f6f6                            #生成的clientID
   clientSecret: e1d80d348dd24efba227a98a87c9c61820e807a3    #生成的clientSecret
-  repo: smartBBer.github.io    #仓库名称
-  owner: smartBBer    #github用户名
+  repo: smartBBer.github.io                                 #仓库名称
+  owner: smartBBer                                          #github用户名
   admin: smartBBer
-  distractionFreeMode: true #是否启用类似FB的阴影遮罩
+  distractionFreeMode: true                                 #是否启用类似FB的阴影遮罩
 
 
 # 统计
@@ -78,15 +78,16 @@ ba_track_id: becddaef61a08850869c1e21a2a071d4
 
 # Google Analytics
 ga_track_id: 'UA-125101386-1'            # Format: UA-xxxxxx-xx
-ga_domain: smartbber.github.io              # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+ga_domain: baizihan.top                  # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
 
 
 
 # Featured Tags
-featured-tags: true                     # 是否使用首页标签
-featured-condition-size: 1              # 相同标签数量大于这个数，才会出现在首页
+featured-tags: true                     # whether or not using Feature-Tags
+featured-condition-size: 1              # A tag will be featured if the size of it is more than this condition value
+
 
 
 
@@ -99,18 +100,6 @@ service-worker: true
 # Friends
 friends: [
     {
-    #     title: "Su",
-    #     href: "http://su.gallery/"
-    # },{
-        title: "乱序",
-        href: "http://mida.re/"
-    #},{
-    #    title: "前端外刊评论",
-    #    href: "http://qianduan.guru/"
-    #},{
-    #    title: "天镶的博客",
-    #    href: "http://lingyu.wang/"
-    },{
         title: "Luke 的自留地",
         href: "http://hmqk1995.github.io"
     },{
@@ -128,8 +117,5 @@ friends: [
     },{
         title: "尹峰以为",
         href: "http://ingf.github.io/"
-    #},{
-    #    title: "解旻的博客",
-    #    href: "http://xieminis.me/"
     }
 ]

@@ -1,15 +1,15 @@
 {
-  "name": "BY Blog",
-  "short_name": "BY Blog",
-  "description": "A personal blog by engineer",
+  "name": "柏梓涵的官方网站",
+  "short_name": "柏梓涵的官方网站",
+  "description": "To be or not to be, that is the question.",
   "icons": [{
-    "src": "icons/pwa_icon_128.png",
+    "src": "icons/128px.ico",
     "sizes": "128x128",
-    "type": "image/png"
-  }, {
-    "src": "icons/pwa_icon_512.png",
-    "sizes": "512x512",
-    "type": "image/png"
+    "type": "image/ico"
+  },{
+	"src": "icons/256px.ico",
+    "sizes": "256x256",
+    "type": "image/ico"
   }],
   "background_color": "#fff",
   "theme_color": "#000",
