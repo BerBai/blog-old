@@ -3,13 +3,13 @@
   "short_name": "柏梓涵的官方网站",
   "description": "To be or not to be, that is the question.",
   "icons": [{
-    "src": "icons/128px.ico",
+    "src": "icons/bber-128.jpg",
     "sizes": "128x128",
-    "type": "image/ico"
+    "type": "image/jpg"
   },{
-	"src": "icons/256px.ico",
-    "sizes": "256x256",
-    "type": "image/ico"
+	"src": "icons/bber-512.jpg",
+    "sizes": "512x512",
+    "type": "image/jpg"
   }],
   "background_color": "#fff",
   "theme_color": "#000",
