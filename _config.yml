@@ -62,8 +62,8 @@ kramdown:
 # Gitalk
 gitalk:
   enable: true                                              #是否开启Gitalk评论
-  clientID: 1ba8f62d66228ee3f6f6                            #生成的clientID
-  clientSecret: e1d80d348dd24efba227a98a87c9c61820e807a3    #生成的clientSecret
+  clientID: 01425193cf4b07e2355e                            #生成的clientID
+  clientSecret: d087e8fa7a52d4b5a9b56b1a6692b5e823d0fff8    #生成的clientSecret
   repo: smartBBer.github.io                                 #仓库名称
   owner: smartBBer                                          #github用户名
   admin: smartBBer
