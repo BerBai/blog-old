@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/smartBBer/smartBBer.github.io.svg?branch=master)](https://travis-ci.org/smartBBer/smartBBer.github.io)
+
 ## 如何建立自己的博客
 
 ---
