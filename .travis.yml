@@ -9,11 +9,6 @@ install:
   - gem install jekyll-paginate
 script: 
   - jekyll build
-  - bundle exec rake
-  - npm run ci
 after_success:
   - bash <(curl -s https://codecov.io/bash)
-branches:
-  only:
-    - master
 
