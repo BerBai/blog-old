@@ -56,9 +56,9 @@ endIndex：子字符串在整个字符串中的结束位置
 ```java
 String str = "Hello word";
 String substr = str.substring(0,3); //substr的值为hel
-去除空格
 ```
 
+## 去除空格
 trim() 方法返回字符串的副本，忽略前导空格和尾部空格。
 
 ## 字符串替换
@@ -110,7 +110,7 @@ str.toLowerCase();
 str.toUpperCase();
 ```
 ## 字符串分割
-    使用split()方法可以使字符串按指定的分隔字符或字符串对内容进行分割，并将分割后的结果存放在字符数组中。
+使用split()方法可以使字符串按指定的分隔字符或字符串对内容进行分割，并将分割后的结果存放在字符数组中。
 
 ```java
 1 str.split(String sign);
