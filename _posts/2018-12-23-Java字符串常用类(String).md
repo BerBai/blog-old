@@ -118,10 +118,13 @@ str.toUpperCase();
 ```
 sign为分割字符串的分割符，也可以使用正则表达式。
 
-没有统一的对字符串进行分割的符号，如果想定义多个分割符，可使用符号“<kbd>|</kbd>”。例如，“,<kbd>|</kbd>=”表示分割符分别为“，”和“=”。
+没有统一的对字符串进行分割的符号，如果想定义多个分割符，可使用符号“<kbd>|</kbd>”。例如，“,<kbd>|</kbd>=”表示分割符分别为“,”和“=”。
 
 ```java 
 str.split(String sign, in limit);
 ```
 该方法可根据给定的分割符对字符串进行拆分，并限定拆分的次数。
 
+### 欢迎关注我的微信公众号
+
+![微信公众号：柏战不殆](http://upload-images.jianshu.io/upload_images/3990834-c91d28f8be4121e4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
