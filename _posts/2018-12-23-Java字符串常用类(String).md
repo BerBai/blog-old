@@ -11,7 +11,7 @@ tags:
 ---
 
 ## 字符串查找
-String 提供了两种查找字符串的方法，即 indexOf 与 lastIndexOf 方法。
+String 提供了两种查找字符串的方法，即 **indexOf** 与 **lastIndexOf** 方法。
 
 ### 1、indexOf（String s） 
 该方法用于返回参数字符串s在指定字符串中首次出现的索引位置，当调用字符串的indexOf()方法时，会从当前字符串的开始位置搜索s的位置；如果没有检索到字符串s，该方法返回-1
@@ -93,9 +93,10 @@ startsWith()方法与endsWith()方法分别用于判断字符串是否以指定�
 
 ### 2、equalsIgnoreCase(String otherstr)
 
-equalsIgnoreCase()方法与equals()类型，不过在比较时忽略了大小写。
+equalsIgnoreCase()方法与equals()类型，不过在比较时**忽略了大小写**。
 
 ## 按字典顺序比较两个字符串
+
 compareTo()方法为按字典顺序比较两个字符串，该比较基于字符串中各个字符的Unicode值，按字典顺序将此String对象表示的字符序列与参数字符串所表示的字符序列进行比较。如果按字典顺序此String对象位于参数字符串之前，则比较结果为一个负整数；如果按字典顺序此String对象位于参数字符串之后，则比较结果为一个正整数；如果这两个字符串相等，则结果为0.
 
 ```java
@@ -117,10 +118,10 @@ str.toUpperCase();
 ```
 sign为分割字符串的分割符，也可以使用正则表达式。
 
-没有统一的对字符串进行分割的符号，如果想定义多个分割符，可使用符号“|”。例如，“,|=”表示分割符分别为“，”和“=”。
+没有统一的对字符串进行分割的符号，如果想定义多个分割符，可使用符号“/|”。例如，“,/|=”表示分割符分别为“，”和“=”。
 
 ```java 
-str.split(String sign, in limit)；
+str.split(String sign, in limit);
 ```
 该方法可根据给定的分割符对字符串进行拆分，并限定拆分的次数。
 
