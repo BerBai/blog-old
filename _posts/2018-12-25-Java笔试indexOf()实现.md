@@ -119,3 +119,8 @@ public int strStr(String haystack, String needle) {
         return index;
     }
 ```
+
+
+### 欢迎关注我的微信公众号
+
+![微信公众号：柏战不殆](http://upload-images.jianshu.io/upload_images/3990834-c91d28f8be4121e4.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
