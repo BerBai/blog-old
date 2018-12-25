@@ -107,7 +107,7 @@ public int strStr(String haystack, String needle) {
         }
         int index=-1;
         if(haystack.contains(needle)){
-            String[] str=haystack.split(needle);
+            String[] str=haystack.split(needle); 
             if(str.length>=1){
                 index=str[0].length();
             }else {
