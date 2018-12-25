@@ -77,5 +77,45 @@ static int indexOf(char[] source, int sourceOffset, int sourceCount, char[] targ
 >给定一个 haystack 字符串和一个 needle 字符串，在 haystack 字符串中找出 needle 字符串出现的第一个位置 (从0开始)。如果不存在，则返回  -1。
 
 ```java
-
+public int strStr(String haystack, String needle) {
+        if(needle.length() == 0) { //当noodle为空应该返回0
+            return 0;
+        } else if(needle.length() > haystack.length()) { //当needle长度大于haystack，返回-1
+            return -1;
+        } else {
+            char first = needle.charAt(0);
+            int max = haystack.length() - needle.length();
+            for(int i = 0; i <= max; i++) {
+                if(haystack.charAt(i) != first) {
+                    while(++i <= max && haystack.charAt(i) != first);
+                }
+                if(i <= max) {
+                    int j = i + 1;
+                    int end = j + needle.length() - 1;
+                    for(int k = 1; j < end && haystack.charAt(j) == needle.charAt(k); j++, k++);
+                    if(j == end) {
+                        return i;
+                    }
+                }
+            }
+            return -1;
+        }
+    }
+    public int strStr2(String haystack, String needle) {
+        if(needle.equals("")||haystack.equals(needle)){
+            return 0;
+        }
+        int index=-1;
+        if(haystack.contains(needle)){
+            String[] str=haystack.split(needle);
+            if(str.length>=1){
+                index=str[0].length();
+            }else {
+                index=0;
+            }
+        }else{
+                index=-1;
+            }
+        return index;
+    }
 ```
