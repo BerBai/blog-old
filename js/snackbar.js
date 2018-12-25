@@ -25,7 +25,7 @@ var createSnackbar = (function() {
 
     if (previous) {
       previous.dismiss();
-    }
+    } 
     var snackbar = document.createElement('div');
     snackbar.className = 'paper-snackbar';
     snackbar.dismiss = function() {

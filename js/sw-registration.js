@@ -25,7 +25,7 @@ function handleRegistration(registration){
         createSnackbar({
           message: 'App ready for offline use.',
           duration: 3000
-        })
+        }) 
       }
     };
   }
