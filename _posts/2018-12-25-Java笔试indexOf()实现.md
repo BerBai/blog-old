@@ -13,6 +13,14 @@ tags:
 ### indexOf源码解析
 
 ```java
+public int indexOf(String str) {
+    return indexOf(str, 0);
+}
+ 
+public int indexOf(String str, int fromIndex) {
+    return indexOf(value, 0, value.length,str.value, 0, str.value.length, fromIndex);
+}
+
 static int indexOf(char[] source, int sourceOffset, int sourceCount, char[] target, int targetOffset, int targetCount, int fromIndex) {
     //1、当开始查找位置 大于等于 源字符串长度时,如果[查找字符串]为空,则:
     //返回字符串的长度,否则返回-1.
