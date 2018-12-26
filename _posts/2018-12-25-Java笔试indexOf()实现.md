@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      Java 关于链表的基本算法
-subtitle:   链表
+title:      Java 笔试 indexOf()实现
+subtitle:   源码分析
 date:       2018-12-23
 author:     柏梓涵
 header-img: img/post-bg-java.jpg
