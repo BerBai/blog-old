@@ -99,7 +99,7 @@ public static void main(String[] args) {
 }
 ```
 
-```java
+```
 //**效果如下**
 hello   world  
 hello   world
