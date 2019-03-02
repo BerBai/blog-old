@@ -96,7 +96,7 @@ location ~ \.php$ {
 
 手动启动 php 和 nginx 来跑一下。
 
-### 1）命令行php目录下键入 php-cgi.exe -b 127.0.0.1:9000 -c C:/wnmp/php7/php.ini（输入以后没有反应，但是不能关掉命令行）
+### 1）命令行php目录下键入 php-cgi.exe -b 127.0.0.1:9000 -c D:/wnmp/php7/php.ini（输入以后没有反应，但是不能关掉命令行）
 
 ### 2）命令行nginx目录下 start nginx
 
