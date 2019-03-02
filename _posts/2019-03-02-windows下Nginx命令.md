@@ -42,3 +42,7 @@ C:\server\nginx-1.0.2>nginx -v
 ### 6、验证配置是否正确: 
 
 C:\server\nginx-1.0.2>nginx -t
+
+### 7.查看是否启动成功：
+
+C:\server\nginx-1.0.2>tasklist /fi "imagename eq nginx.exe"
