@@ -26,7 +26,7 @@ C:\server\nginx-1.0.2>nginx.exe -s quit
 
 >注：stop是快速停止nginx，可能并不保存相关信息；quit是完整有序的停止nginx，并保存相关信息。
 
-### 3、重新载入Nginx：
+### 3、配置文件修改重新载入Nginx：
 
 C:\server\nginx-1.0.2>nginx.exe -s reload
 当配置信息修改，需要重新载入这些配置时使用此命令。
@@ -38,3 +38,7 @@ C:\server\nginx-1.0.2>nginx.exe -s reopen
 ### 5、查看Nginx版本：
 
 C:\server\nginx-1.0.2>nginx -v
+
+### 6、验证配置是否正确: 
+
+C:\server\nginx-1.0.2>nginx -t
