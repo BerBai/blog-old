@@ -19,6 +19,10 @@ Nginx: <a href = 'http://nginx.org/en/download.html' target='_blank'>nginx/Wind
 
 MySql：<a href='https://cdn.mysql.com//Downloads/MySQL-8.0/mysql-8.0.15-winx64.zip' target='_blank'>mysql-8.0.15-winx64.zip</a>
 
+附一个用了比较久的 MySql 界面管理器
+
+免费的 Navicat Premium 非商业版许可证：<a href = 'https://www.navicat.com.cn/sponsorship/education/student' target = '_blank'>学术伙伴计划 - 学生</a> 有一个教育邮箱就可以申请
+
 ## 2.安装与配置。
 
 ### 1）php安装与配置。
@@ -34,7 +38,7 @@ extension_dir = "./txt"
 
 ; On windows:
 
-extension_dir = "D:\wnmp\php7\ext"
+extension_dir = "D:/wnmp/php7/ext"
 ```
 
 将下面两个扩展前面的“;”去掉。（因为 php7 不支持 mysql 扩展了，所以这里只有 mysqli 和 pdo 扩展)
