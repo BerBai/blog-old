@@ -13,7 +13,7 @@ tags:
 
 ## 1.首先需要的应用程序包。
 
-PHP: [VC15 x64 Non Thread Safe (2019-Feb-06 02:14:41)](https://windows.php.net/download) （nginx 下 php 是以 FastCGI 的方式运行，所以我们下载非线程安全也就是nts的php包）
+PHP: <a href='https://windows.php.net/download' target='_blank'>VC15 x64 Non Thread Safe (2019-Feb-06 02:14:41)</a>[]() （nginx 下 php 是以 FastCGI 的方式运行，所以我们下载非线程安全也就是nts的php包）
 
 Nginx: [nginx/Windows-1.14.2](http://nginx.org/en/download.html) （下载 stable version）
 
