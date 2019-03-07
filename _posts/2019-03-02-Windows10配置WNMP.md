@@ -17,6 +17,8 @@ PHP: <a href='https://windows.php.net/download' target='_blank'>VC15 x64 Non Th
 
 Nginx: <a href = 'http://nginx.org/en/download.html' target='_blank'>nginx/Windows-1.14.2</a> （下载 stable version）
 
+MySql：<a href='https://cdn.mysql.com//Downloads/MySQL-8.0/mysql-8.0.15-winx64.zip' target='_blank'>mysql-8.0.15-winx64.zip</a>
+
 ## 2.安装与配置。
 
 ### 1）php安装与配置。
