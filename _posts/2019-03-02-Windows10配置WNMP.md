@@ -122,7 +122,7 @@ location ~ \.php$ {
 ?>
 ```
 
-### 4）浏览器中输入 [localhost/phpinfo.php](http://localhost/phpinfo.php) 或者 [127.0.0.1/phpinfo.php](http://127.0.0.1/phpinfo.php)，出现下面内容则说明php在nginx中运行成功了。
+### 4）浏览器中输入 <a href='http://localhost/phpinfo.php' target='_blank'>localhost/phpinfo.php</a> 或者 <a href='http://127.0.0.1/phpinfo.php' target='_blank'>127.0.0.1/phpinfo.php</a>，出现下面内容则说明php在nginx中运行成功了。
 
 ![成功啦](http://ww1.sinaimg.cn/large/006KCUaNgy1g0og4i2gzfj30qi0gl77i.jpg)
  
