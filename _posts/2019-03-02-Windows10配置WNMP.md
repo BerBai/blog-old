@@ -13,9 +13,9 @@ tags:
 
 ## 1.首先需要的应用程序包。
 
-PHP: <a href='https://windows.php.net/download' target='_blank'>VC15 x64 Non Thread Safe (2019-Feb-06 02:14:41)</a>[]() （nginx 下 php 是以 FastCGI 的方式运行，所以我们下载非线程安全也就是nts的php包）
+PHP: <a href='https://windows.php.net/download' target='_blank'>VC15 x64 Non Thread Safe (2019-Feb-06 02:14:41)</a>（nginx 下 php 是以 FastCGI 的方式运行，所以我们下载非线程安全也就是nts的php包）
 
-Nginx: [nginx/Windows-1.14.2](http://nginx.org/en/download.html) （下载 stable version）
+Nginx: <a href = 'http://nginx.org/en/download.html' target='_blank'>nginx/Windows-1.14.2</a> （下载 stable version）
 
 ## 2.安装与配置。
 
@@ -119,6 +119,6 @@ location ~ \.php$ {
 ### 4）浏览器中输入 [localhost/phpinfo.php](http://localhost/phpinfo.php) 或者 [127.0.0.1/phpinfo.php](http://127.0.0.1/phpinfo.php)，出现下面内容则说明php在nginx中运行成功了。
 
 ![成功啦](http://ww1.sinaimg.cn/large/006KCUaNgy1g0og4i2gzfj30qi0gl77i.jpg)
-
+ 
 
 本文参考 [http://www.cnblogs.com/huayangmeng/archive/2011/06/15/2081337.html](http://www.cnblogs.com/huayangmeng/archive/2011/06/15/2081337.html)
