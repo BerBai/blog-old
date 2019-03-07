@@ -39,6 +39,7 @@ extension_dir = "D:\wnmp\php7\ext"
 
 ```ini
 ;extension=mysqli 
+
 ;extension=pdo_mysql
 ```
 
@@ -56,14 +57,17 @@ extension_dir = "D:\wnmp\php7\ext"
 
 ```conf
 #将一下代码
+
 location/ {
     root html;
     index index.html index.htm;
 }
 
 #改为
+
 location/ {
 root D:/wnmp/www; #将站点的根目录定位到 D:/wnmp/www
+
 index index.html index.htm;
 }  
 
@@ -82,12 +86,14 @@ index index.html index.htm;
 #改为
 # pass the PHP scripts to FastCGI server listening on 127.0.0.1:9000
 #
+
 location ~ \.php$ {
     root           D:/wnmp/www;
     fastcgi_pass   localhost:9000;
     fastcgi_index  index.php;
     
     # 这里$document_root指的是上面定义好的nginx根目录：D:/wnmp/www
+
     fastcgi_param  SCRIPT_FILENAME  $document_root$fastcgi_script_name;
     include        fastcgi_params;
 }
@@ -104,7 +110,7 @@ location ~ \.php$ {
 
 ### 3）在www目录下新建一个 phpinfo.php 文件
 
-```php
+```
 <?php 
     phpinfo();
 ?>
