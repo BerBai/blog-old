@@ -26,17 +26,19 @@ Nginx: [nginx/Windows-1.14.2](http://nginx.org/en/download.html) （下载 sta
 ```ini
 ;将里面的
 ; On windows:
+
 extension_dir = "./txt"
 ;改为
 
 ; On windows:
+
 extension_dir = "D:\wnmp\php7\ext"
 ```
 
 将下面两个扩展前面的“;”去掉。（因为 php7 不支持 mysql 扩展了，所以这里只有 mysqli 和 pdo 扩展)
 
 ```ini
-;extension=mysqli
+;extension=mysqli 
 ;extension=pdo_mysql
 ```
 
