@@ -49,6 +49,8 @@ extension_dir = "D:/wnmp/php7/ext"
 ;extension=mysqli 
 
 ;extension=pdo_mysql
+
+;extension=openssl
 ```
 
 最后让PHP支持 nginx，将下面一行前面的“;”去掉。
