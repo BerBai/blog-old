@@ -3,7 +3,7 @@ layout:     post
 title:      Nginx 命令
 subtitle:   Windows下Nginx的启动、停止等命令
 date:       2019-03-03
-author:     柏梓涵
+author:     涂诣
 header-img: img/post-bg-nginx.png
 catalog: true
 tags:
