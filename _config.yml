@@ -1,11 +1,11 @@
 # Site settings
-title: 柏梓涵的官方网站
-SEOTitle: 柏梓涵的官方网站
+title: 涂诣的官方网站
+SEOTitle: 涂诣的官方网站
 header-img: img/home-bg-new.webp
 email: bai5775@outlook.com
-description: "关于我与世界 | 柏梓涵，Software Engineer | 这里是 @柏梓涵 的个人网站，与你一起发现更大的世界。"
-keyword: "柏梓涵, BerBai, 柏战不殆, 博客, 个人网站, 互联网, 深度学习, 全栈, 设计"
-url: "https://baizihan.top"             # your host, for absolute URL
+description: "关于我与世界 | 涂诣，Software Engineer | 这里是 @涂诣 的个人网站，与你一起发现更大的世界。"
+keyword: "涂诣, BerBai, 柏战不殆, 博客, 个人网站, 互联网, 深度学习, 全栈, 设计"
+url: "https://smartbber.github.io"             # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/smartBBer/smartbber.github.io.git" # you code repository
 
@@ -79,7 +79,7 @@ ba_track_id: becddaef61a08850869c1e21a2a071d4
 
 # Google Analytics
 ga_track_id: 'UA-125101386-1'            # Format: UA-xxxxxx-xx
-ga_domain: baizihan.top                  # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+ga_domain: smartbber.github.io                  # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
 
 
 
