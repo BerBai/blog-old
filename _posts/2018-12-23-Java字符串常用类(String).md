@@ -3,7 +3,7 @@ layout:     post
 title:      Java 字符串常用类
 subtitle:   String 类
 date:       2018-12-23
-author:     涂诣
+author:     白
 header-img: img/post-bg-java.jpg
 catalog: true
 tags:

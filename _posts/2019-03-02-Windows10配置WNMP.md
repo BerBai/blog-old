@@ -3,7 +3,7 @@ layout:     post
 title:      WNMP 配置
 subtitle:   win10 + nginx + php7 + mysql
 date:       2019-03-03
-author:     涂诣
+author:     白
 header-img: img/post-bg-php.jpg
 catalog: true
 tags:

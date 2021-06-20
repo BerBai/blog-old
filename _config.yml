@@ -1,10 +1,10 @@
 # Site settings
-title: 涂诣的官方网站
-SEOTitle: 涂诣的官方网站
+title: 白的官方网站
+SEOTitle: 白的官方网站
 header-img: img/home-bg-new.webp
 email: bai5775@outlook.com
-description: "关于我与世界 | 涂诣，Software Engineer | 这里是 @涂诣 的个人网站，与你一起发现更大的世界。"
-keyword: "涂诣, BerBai, 柏战不殆, 博客, 个人网站, 互联网, 深度学习, 全栈, 设计"
+description: "关于我与世界 | 白，Software Engineer | 这里是 @白 的个人网站，与你一起发现更大的世界。"
+keyword: "白, BerBai, 柏战不殆, 博客, 个人网站, 互联网, 深度学习, 全栈, 设计"
 url: "https://blog.125520.xyz"             # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/bq8023" # you code repository

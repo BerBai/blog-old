@@ -3,7 +3,7 @@ layout:     post
 title:      Java 笔试 indexOf()实现
 subtitle:   源码分析
 date:       2018-12-23
-author:     涂诣
+author:     白
 header-img: img/post-bg-java.jpg
 catalog: true
 tags:

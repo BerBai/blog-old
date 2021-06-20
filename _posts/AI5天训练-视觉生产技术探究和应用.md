@@ -3,7 +3,7 @@ layout:     post
 title:      阿里云-AI五天实践（第一天）
 subtitle:   视觉生产技术探究和应用
 date:       2020-05-16
-author:     涂诣
+author:     白
 header-img: img/post-bg-j.jpg
 catalog: true
 tags:
